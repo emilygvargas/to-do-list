@@ -1,3 +1,46 @@
 h1 {
     color:blue;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+    background-color: yellow;
+}
+.To-Do-Item {
+    display: flex;
+    flex-flow: row;
+    padding: 10px;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width:400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Checkmark {
+    height:15px;
+    width:15px;
+}
+#To-Do-List {
+    border: 2px solid black;
+    display: flex;
+    align-content: center;
+    flex-flow: column;
+    margin-right: 40px;
+    background-color: pink;
+}
+.New-Task {
+    border:2px solid black;
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    left:20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    justify-content: center;
+    background-color: green;
+    gap:20px;
 }

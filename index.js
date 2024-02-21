@@ -37,7 +37,7 @@ function newElement(){
   removeButton.innerHTML = "Remove";
 
   let div = document.createElement("div");
-  div.className="To-Do-List";
+  div.className="To-Do-Item";
   div.appendChild(checkmarkButton);
   div.appendChild(taskName);
   div.appendChild(removeButton);
