@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My To Do List</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <script src="./index.js"></script>
     <h1>My To Do List</h1>
-    <div class="To-Do-List">
-        <ol>
+    <ol>
+        <div id="To-Do-List">
             <div class="To-Do-Item">
-                <button class="Checkmark"></button>
+                <button onclick="completed(this)" class="Checkmark"></button>
                 <li>Mow the Lawn</li>
-                <button class="Remove-Task">Remove</button>
+                <button onclick="remove(this)" class="Remove-Task">Remove</button>
             </div>
             <div class="To-Do-Item">
-                <button class="Checkmark"></button>
+                <button onclick="completed(this)" class="Checkmark"></button>
                 <li>Vacuum</li>
-                <button class="Remove-Task">Remove</button>
+                <button onclick="remove(this)" class="Remove-Task">Remove</button>
             </div>
             <div class="To-Do-Item">
-                <button class="Checkmark"></button>
+                <button  onclick=completed(this) class="Checkmark"></button>
                 <li>Wash Dishes</li>
-                <button class="Remove-Task">Remove</button>
+                <button onclick="remove(this)" class="Remove-Task">Remove</button>
             </div>
-        </ol>
-    </div>
+        </div>
+    </ol>
     <div class="New-Task">
-      <input type="text" name="New-Task" placeholder="Add a New Task">
-     <button class="Submit">Submit</button>
+        <input type="text" id="New-Task" name="New-Task" placeholder="Add a New Task">
+        <button onclick="newElement()" class="Submit">Submit</button>
     </div>
 </body>
+
 </html>
