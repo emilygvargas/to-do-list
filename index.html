@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <script src="./index.js"></script>
+    <script defer src="./index.js"></script>
     <h1>My To Do List</h1>
     <ol>
         <div id="To-Do-List">
@@ -33,6 +33,9 @@
     <div class="New-Task">
         <input type="text" id="New-Task" name="New-Task" placeholder="Add a New Task" style="width:400px;">
         <button onclick="newElement()" class="Submit">Submit</button>
+    </div>
+    <div id="Archive">
+        <h2>Archived Tasks</h2>
     </div>
 </body>
 
